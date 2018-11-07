@@ -1,0 +1,136 @@
+ul.topnav {
+	list-style: none;
+	font: 11px normal "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-bottom: 40px;
+	z-index: 1000;
+	padding: 0px 0px;
+	margin: 0;
+	float: left;
+	width: 920px;
+	font-size: 1.2em;
+	background: url(../images/topnav_bg.gif) repeat-x;
+}
+ul.topnav li {
+    list-style: none;
+	float: left;
+    margin:1.5em 0;
+	margin: 0;
+	position: relative; /*--Declare X and Y axis base for sub navigation--*/
+}
+
+ul.topnav li a{
+	padding: 16px 20px 16px 20px;
+	display: block;
+	text-decoration: none;
+	float: left;	
+}
+
+
+ul.topnav li a:hover{
+	padding: 16px 20px 16px 20px;
+	color: #fff;
+	display: block;
+	cursor: pointer;
+	display: block;
+	text-decoration: none;
+	float: left;
+}
+
+ul.topnav li span { /*--Drop down trigger styles--*/
+	width: 17px;
+	height: 140px;
+	margin-top: 2px;
+	float: right;
+}
+ul.topnav li span.subhover {
+margin-top: 2px; 
+background-position: center bottom; 
+cursor: pointer;
+
+
+} /*--Hover effect for trigger--*/
+
+ul.topnav li ul.sub-menu  {
+padding-top: 8px;
+margin-top: -6px;
+z-index: 10000;
+list-style: none;
+position: absolute;
+top: 52px;
+left: 0;
+margin-left: -2px;
+width: 172px;
+display: none;
+}
+
+ul.ul.topnav li ul.sub-menu  {
+padding-top: 8px;
+margin-top: -6px;
+z-index: 10000;
+list-style: none;
+position: absolute;
+top: 52px;
+left: 0;
+margin-left: 102px;
+width: 172px;
+display: none;
+}
+
+ul.topnav li ul.sub-menu li ul {
+z-index: 100;
+top: 0px;
+left: 100px;
+list-style: none;
+position: absolute;
+margin-left: 70px;
+padding-left: 10px;
+width: 170px;
+display: none;
+}
+
+ul.topnav li ul.sub-menu li{
+margin: 0; padding: 0;
+display: block;
+width: 170px;
+line-height: 0.4em !important;
+border-left: none !important;
+border-right: none !important;
+}
+
+
+ul.topnav li ul.sub-menu li:first-of-type{
+border-radius: 5px 5px 0px 0px;
+-moz-border-radius: 5px 5px 0px 0px;
+-webkit-border-radius: 5px 5px 0px 0px;
+}
+
+ul.topnav li ul.sub-menu li:last-of-type{
+border-radius: 0px 0px 5px 5px;
+-moz-border-radius: 0px 0px 5px 5px;
+-webkit-border-radius: 0px 0px 5px 5px;
+}
+
+ul.topnav li ul.sub-menu li:only-of-type{
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius:  5px;
+}
+
+
+
+html ul.topnav li ul.sub-menu li a {
+float: left;
+width: 130px !important;
+padding-left: 20px;	
+display: block;
+}
+
+html ul.topnav li ul.sub-menu li a:hover { /*--Hover effect for sub-menu links--*/
+width: 130px !important;
+display: block;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+
+}
+

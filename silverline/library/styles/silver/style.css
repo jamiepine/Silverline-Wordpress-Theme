@@ -1,0 +1,64 @@
+/* Header Styles */
+#header-banner {
+background: #404040; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzQwNDA0MCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMzNDM0MzQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #404040 0%, #343434 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#404040), color-stop(100%,#343434)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #404040 0%,#343434 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #404040 0%,#343434 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #404040 0%,#343434 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #404040 0%,#343434 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#404040', endColorstr='#343434',GradientType=0 ); /* IE6-8 */
+
+}
+
+/* Input Styles */
+input:hover  {
+    border: 1px solid #cfcdcd;
+    -moz-box-shadow: 0 2px 2px rgba(223, 223, 223, 1);
+	-webkit-box-shadow: 0 2px 2px rgba(223, 223, 223, 1);
+	box-shadow: 0 0px 2px rgba(223, 223, 223, 1);
+	}
+	
+/* Link Styles */		
+a:hover,
+.widget-container a:hover,
+.widget_categories a:hover,
+.widget_archive a:hover,
+.widget_meta a:hover,
+.widget_recent_comments a:hover,
+.tabnavlist.ui-state-active a
+{color: #3e94a8;}
+
+
+/* Navigation Styles */
+ul.topnav {
+border-left: 1px solid #2b2b2b;
+background: #222;
+}
+ul.topnav li {
+border-right: 1px solid #2b2b2b;
+}
+
+ul.topnav li a{
+color: #fff;
+}
+
+ul.topnav li a:hover{
+background-color: #343534;
+}
+
+ul.topnav li ul.sub-menu li ul li {
+background-color: #333333;
+}
+
+ul.topnav li ul.sub-menu li{
+background-color: #323232;
+border-bottom: #2a2a2a 1px solid;
+}
+
+html ul.topnav li ul.sub-menu li a:hover { /*--Hover effect for sub-menu links--*/
+background: #363636;
+
+}
